@@ -1,0 +1,8 @@
+class Solution:
+    def findMin(self, nums: List[int]) -> int:
+        min = 100000
+
+        for num in nums:
+            if num < min:
+                min = num
+        return min
